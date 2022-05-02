@@ -1,14 +1,15 @@
-$font-family: "Montserrat", sans-serif;
+$font__family: "Montserrat", sans-serif;
+
+$gray__light: #cccccc;
 
 $screen__mobile: 20rem;
 $screen__desktop: 80rem;
 
 @mixin container {
-    max-width: $screen__mobile;
-    padding: 0 1rem;
+    max-width: 100%;
+    margin: 0 1rem;
 
-    @media screen and (max-width: $screen__desktop) {
-        max-width: 100%;
-        padding: 0 2.5rem;
+    @media screen and (min-width: $screen__desktop) {
+        margin: 0 2.5rem;
     }
 }

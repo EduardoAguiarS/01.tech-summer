@@ -1,5 +1,7 @@
+import Header from "../../molecules/Header";
+
 const HeaderHero = () => {
-    return <>Header</>;
+    return <Header />;
 };
 
 export default HeaderHero;

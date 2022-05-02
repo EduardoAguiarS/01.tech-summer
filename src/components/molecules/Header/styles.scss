@@ -1,0 +1,39 @@
+@import "../../../../src/styles/variables.scss";
+
+.header {
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include container;
+        padding: 1.125rem 0;
+
+        @media screen and (min-width: $screen__desktop) {
+            padding: 1.625rem;
+        }
+
+        .menu__burger {
+            @media screen and (min-width: $screen__desktop) {
+                display: none;
+            }
+        }
+
+        .right__items {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            @media screen and (min-width: $screen__desktop) {
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (min-width: $screen__desktop) {
+        border-bottom: 1px solid $gray__light;
+
+        .right__items {
+            display: none;
+        }
+    }
+}
