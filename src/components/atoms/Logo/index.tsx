@@ -1,5 +1,6 @@
 import logo_header from "../../../../public/assets/logo/logo-header.svg";
 import logo_footer from "../../../../public/assets/logo/logo-footer.svg";
+import "./styles.scss";
 
 export const LogoHeader = () => {
     return (
