@@ -3,6 +3,21 @@
 .color {
     .color__name {
         margin-bottom: 0.875rem;
+        display: none;
+        align-items: center;
+        gap: 0.4rem;
+        span {
+            font-size: 0.875rem;
+            color: $dark;
+        }
+
+        span.color__value {
+            color: $blue__dark;
+        }
+
+        @media screen and (min-width: $screen__desktop) {
+            display: flex;
+        }
     }
     .radio__container {
         display: inline-flex;

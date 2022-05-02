@@ -11,10 +11,8 @@ const ProductColors = () => {
     return (
         <div className="color">
             <div className="color__name">
-                <span>
-                    Cor:
-                    <span>{cor}</span>
-                </span>
+                <span>Cor:</span>
+                <span className="color__value">{`(${cor})`}</span>
             </div>
             {colors.map((color, index) => (
                 <label className="radio__container">
