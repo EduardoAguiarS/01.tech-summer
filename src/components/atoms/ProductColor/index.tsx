@@ -1,31 +1,38 @@
-import React, { ReactNode, useState } from "react";
+import { useState } from "react";
 import "./styles.scss";
 
 const ProductColors = () => {
-    const colors = ["Fucsia", "Teal", "Orange", "Black"];
+    const colors = ["Red", "Teal", "Orange", "Black"];
     const [cor, setCor] = useState(colors[0]);
     function getValue(event: any) {
         setCor(event.target.value);
     }
 
     return (
-        <div>
-            <div>
-                <span>Cor: {cor}</span>
+        <div className="color">
+            <div className="color__name">
+                <span>
+                    Cor:
+                    <span>{cor}</span>
+                </span>
             </div>
-            <div>
-                {colors.map((color, index) => (
+            {colors.map((color, index) => (
+                <label className="radio__container">
                     <input
-                        key={color}
+                        className="radio__input"
+                        key={index}
                         type="radio"
-                        style={{ outline: `${color}` }}
                         name="color"
                         value={color}
                         defaultChecked={index == 0 ? true : false}
                         onClick={getValue}
                     ></input>
-                ))}
-            </div>
+                    <span
+                        className={`radio__style`}
+                        style={{ background: `${color}` }}
+                    ></span>
+                </label>
+            ))}
         </div>
     );
 };
