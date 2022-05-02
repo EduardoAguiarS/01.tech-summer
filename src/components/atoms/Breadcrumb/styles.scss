@@ -4,6 +4,7 @@
     color: $gray__medium;
     font-size: 0.75rem;
     display: none;
+    margin-bottom: 1rem;
 
     @media screen and (min-width: $screen__desktop) {
         display: block;
