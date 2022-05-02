@@ -1,3 +1,5 @@
+import "./styles.scss";
+
 export default function Front() {
-    return <div>index</div>;
+    return <main>index</main>;
 }
