@@ -113,4 +113,27 @@
         align-items: center;
         border-top: 0;
     }
+
+    &.inactive {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-10rem);
+        pointer-events: none;
+        transition: all 0.25s ease;
+
+        @media screen and (min-width: $screen__desktop) {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: all;
+        }
+    }
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: all;
+        transition: all 0.25s ease;
+    }
 }

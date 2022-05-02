@@ -32,7 +32,7 @@ export default function Header() {
                     </div>
                 </nav>
             </header>
-            <nav className="menu__nav">
+            <nav className={`menu__nav ${isActive ? "active" : "inactive"}`}>
                 <div className="login">
                     <span>
                         <a href="#">Entrar | Cadastrar</a>
