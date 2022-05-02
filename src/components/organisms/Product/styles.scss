@@ -1,0 +1,6 @@
+@import "../../../../src/styles/variables.scss";
+
+.product {
+    @include container;
+    padding-top: 1.2rem;
+}
