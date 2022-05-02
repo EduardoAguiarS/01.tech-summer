@@ -1,3 +1,4 @@
+import ProductColors from "../../atoms/ProductColor";
 import ProductDescription from "../../atoms/ProductDescription";
 import ProductPrice from "../../atoms/ProductPrice";
 import ProductTitle from "../../atoms/ProductTitle";
@@ -16,6 +17,7 @@ const ProductInfo = () => {
                     "Rasteira em atanado soft com tira no dedo e fechamento de fivela. Possui sola sempre na cor do cabedal."
                 }
             />
+            <ProductColors />
         </article>
     );
 };
