@@ -1,12 +1,14 @@
 import Breadcrumb from "../../atoms/Breadcrumb";
-import ProductInfo from "../../molecules/ProductInfo";
+import ProductDesk from "../../molecules/ProductDesk";
+import ProductMob from "../../molecules/ProductMob";
 import "./styles.scss";
 
 const Product = () => {
     return (
         <section className="product">
             <Breadcrumb />
-            <ProductInfo />
+            <ProductDesk />
+            <ProductMob />
         </section>
     );
 };

@@ -1,0 +1,14 @@
+@import "../../../../src/styles/variables.scss";
+
+.info__container {
+    display: none;
+    max-width: 28rem;
+    padding: 1.25rem;
+    border: 1px solid $gray__light;
+
+    @media screen and (min-width: $screen__desktop) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
