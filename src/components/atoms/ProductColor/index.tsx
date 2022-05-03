@@ -24,7 +24,7 @@ const ProductColors = () => {
                         value={color}
                         defaultChecked={index == 0 ? true : false}
                         onClick={getValue}
-                    ></input>
+                    />
                     <span
                         className={`radio__style`}
                         style={{
