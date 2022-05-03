@@ -1,3 +1,4 @@
+import Button from "../../atoms/Buttons";
 import ProductColors from "../../atoms/ProductColor";
 import ProductDescription from "../../atoms/ProductDescription";
 import ProductPrice from "../../atoms/ProductPrice";
@@ -20,6 +21,13 @@ const ProductInfo = () => {
             />
             <ProductColors />
             <ProductSize />
+            <Button
+                text={"Teste"}
+                color={"white"}
+                bgColor={"green"}
+                size={"btn__large"}
+                full={true}
+            />
         </article>
     );
 };
