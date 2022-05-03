@@ -1,6 +1,7 @@
 import ProductColors from "../../atoms/ProductColor";
 import ProductDescription from "../../atoms/ProductDescription";
 import ProductPrice from "../../atoms/ProductPrice";
+import ProductSize from "../../atoms/ProductSize";
 import ProductTitle from "../../atoms/ProductTitle";
 import "./styles.scss";
 
@@ -18,6 +19,7 @@ const ProductInfo = () => {
                 }
             />
             <ProductColors />
+            <ProductSize />
         </article>
     );
 };
