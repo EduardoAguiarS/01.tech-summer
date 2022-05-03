@@ -27,7 +27,13 @@ const ProductColors = () => {
                     ></input>
                     <span
                         className={`radio__style`}
-                        style={{ background: `${color}` }}
+                        style={{
+                            background: `${color}`,
+                            border: "2px solid white",
+                            boxShadow: `${
+                                cor == color ? `0 0 0 2px ${color}` : "none"
+                            }`
+                        }}
                     ></span>
                 </label>
             ))}
