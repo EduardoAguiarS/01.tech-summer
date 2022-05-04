@@ -2,7 +2,7 @@
 
 .aside__container {
     padding: 0.5rem 0;
-    border-top: 1px solid $gray__light;
+    border-bottom: 1px solid $gray__light;
 
     @media screen and (min-width: $screen__desktop) {
         padding: 0;
