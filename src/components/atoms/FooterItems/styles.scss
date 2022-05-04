@@ -1,0 +1,11 @@
+@import "../../../../src/styles/variables.scss";
+
+.footer__items {
+    display: none;
+    font-size: 0.875rem;
+    color: $dark;
+
+    @media screen and (min-width: $screen__desktop) {
+        display: block;
+    }
+}
