@@ -6,6 +6,7 @@ import ProductPrice from "../../atoms/ProductPrice";
 import ProductSize from "../../atoms/ProductSize";
 import ProductTitle from "../../atoms/ProductTitle";
 import "./styles.scss";
+import prodImg from "../../../../public/images/prod.png";
 
 const ProductMob = () => {
     return (
@@ -19,11 +20,10 @@ const ProductMob = () => {
                 style={{
                     width: "250px",
                     height: "325px",
-                    border: "1px solid black",
                     margin: "0 auto"
                 }}
             >
-                Slide Here!
+                <img src={prodImg} alt="Sandalia" />
             </div>
 
             <ProductColors />
