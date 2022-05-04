@@ -1,4 +1,5 @@
-import Footer from "../components/organisms/footer";
+import FooterDesk from "../components/organisms/FooterDesk";
+import FooterMob from "../components/organisms/FooterMobile";
 import HeaderHero from "../components/organisms/HeaderHero";
 import Product from "../components/organisms/Product";
 import "./styles.scss";
@@ -8,7 +9,8 @@ export default function Front() {
         <main>
             <HeaderHero />
             <Product />
-            <Footer />
+            <FooterDesk />
+            <FooterMob />
         </main>
     );
 }

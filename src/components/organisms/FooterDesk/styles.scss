@@ -1,9 +1,14 @@
 @import "../../../../src/styles/variables.scss";
 
 .footer__container {
+    display: none;
     margin-top: 6rem;
     border-top: 2px solid $gray__light;
     position: relative;
+
+    @media screen and (min-width: $screen__desktop) {
+        display: block;
+    }
 
     .footer__comp {
         padding: 3rem 0;

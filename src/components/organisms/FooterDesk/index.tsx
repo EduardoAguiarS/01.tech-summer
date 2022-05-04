@@ -2,9 +2,10 @@ import FooterFooter from "../../atoms/FooterFooter";
 import FooterItems from "../../atoms/FooterItems";
 import FooterSocial from "../../atoms/FooterSocial";
 import FooterTitle from "../../atoms/FooterTitles";
+import Newsletter from "../../atoms/Newsletter";
 import "./styles.scss";
 
-const Footer = () => {
+const FooterDesk = () => {
     return (
         <footer className="footer__container">
             <div className="footer__comp">
@@ -35,10 +36,11 @@ const Footer = () => {
                         <FooterItems text={"Procon-RJ"} />
                     </ul>
                 </div>
+                <Newsletter />
             </div>
             <FooterFooter />
         </footer>
     );
 };
 
-export default Footer;
+export default FooterDesk;
