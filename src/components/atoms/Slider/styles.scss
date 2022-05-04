@@ -30,3 +30,37 @@
         display: flex;
     }
 }
+
+.slider__o {
+    display: block;
+    text-align: center;
+    .slider__imgs div {
+        display: flex;
+        gap: 0.875rem;
+        flex-wrap: nowrap;
+        overflow: hidden;
+
+        img {
+            width: 140px;
+
+            @media screen and (min-width: $screen__desktop) {
+                width: 290px;
+            }
+        }
+    }
+    .slider__nav {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        .button {
+            padding: 0.7rem 0.875rem;
+            cursor: pointer;
+            border: 2px solid #2a5a75;
+            color: #2a5a75;
+            border-radius: 50%;
+        }
+    }
+}

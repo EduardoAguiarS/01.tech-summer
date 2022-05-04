@@ -1,4 +1,5 @@
 import Button from "../../atoms/Buttons";
+import PageTitle from "../../atoms/PageTitle";
 import ProductColors from "../../atoms/ProductColor";
 import ProductDescription from "../../atoms/ProductDescription";
 import ProductPrice from "../../atoms/ProductPrice";

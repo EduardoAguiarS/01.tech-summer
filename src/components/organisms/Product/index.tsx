@@ -1,5 +1,6 @@
 import Breadcrumb from "../../atoms/Breadcrumb";
-import { SliderProduct } from "../../atoms/SliderProduct";
+import PageTitle from "../../atoms/PageTitle";
+import { SliderOther } from "../../atoms/Slider";
 import ProductDesk from "../../molecules/ProductDesk";
 import ProductMob from "../../molecules/ProductMob";
 
@@ -11,6 +12,8 @@ const Product = () => {
             <Breadcrumb />
             <ProductDesk />
             <ProductMob />
+            <PageTitle title={"Quem viu, viu tambem"} />
+            <SliderOther />
         </section>
     );
 };
