@@ -1,0 +1,35 @@
+@import "../../../../src/styles/variables.scss";
+
+.newsletter {
+    width: 100%;
+
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $gray__medium;
+    }
+
+    .news__form {
+        label {
+            font-size: 0.75rem;
+            display: block;
+            color: $gray__medium;
+        }
+        input {
+            height: 30px;
+            width: 100%;
+            border-bottom: 2px solid $gray__light;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .email {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        .email__input {
+            flex: 1;
+        }
+    }
+}
