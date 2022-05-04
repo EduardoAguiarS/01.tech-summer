@@ -2,4 +2,27 @@
 
 .footer__container {
     margin-top: 6rem;
+    border-top: 2px solid $gray__light;
+    position: relative;
+
+    .footer__comp {
+        padding: 3rem 0;
+
+        @include container;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer_sections {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .footer__list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+    }
 }

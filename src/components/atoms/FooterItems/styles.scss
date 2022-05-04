@@ -1,9 +1,11 @@
 @import "../../../../src/styles/variables.scss";
 
-.footer__items {
+.footer__item {
     display: none;
     font-size: 0.875rem;
-    color: $dark;
+    a {
+        color: $dark;
+    }
 
     @media screen and (min-width: $screen__desktop) {
         display: block;
