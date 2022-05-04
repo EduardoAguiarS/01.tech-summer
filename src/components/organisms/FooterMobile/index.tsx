@@ -8,8 +8,8 @@ const FooterMob = () => {
     return (
         <footer className="mfooter_container">
             <FooterTitle text={"Institucional"} />
-            <FooterTitle text={"Institucional"} />
-            <FooterTitle text={"Institucional"} />
+            <FooterTitle text={"informações"} />
+            <FooterTitle text={"conheça"} />
             <div className="footer__comp">
                 <FooterSocial />
                 <Newsletter />
