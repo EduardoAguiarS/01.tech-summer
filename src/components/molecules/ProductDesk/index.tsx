@@ -4,11 +4,14 @@ import ProductDescription from "../../atoms/ProductDescription";
 import ProductPrice from "../../atoms/ProductPrice";
 import ProductSize from "../../atoms/ProductSize";
 import ProductTitle from "../../atoms/ProductTitle";
+import { SliderProduct } from "../../atoms/Slider";
+
 import "./styles.scss";
 
 const ProductDesk = () => {
     return (
-        <section>
+        <section className="container__desk">
+            <SliderProduct />
             <div className="info__container">
                 <ProductTitle
                     title={"Rasteira Tira Dedo"}
